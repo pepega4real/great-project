@@ -14,5 +14,5 @@ render(
       </ThemeProvider>
     </BrowserRouter>
   </div>,
-  document.getElementById('root')
+  document.getElementById('root'),
 )
