@@ -37,7 +37,7 @@ module.exports = {
     'no-underscore-dangle': 'off',
     'arrow-body-style': 'off',
     'i18next/no-literal-string': ['error', { markupOnly: true }],
-    'max-len': ['error', { ignoreComments: true, code: 80 }],
+    'max-len': ['error', { ignoreComments: true, code: 100 }],
     'comma-dangle': ['error', 'only-multiline'],
     'react/jsx-wrap-multilines': 'off',
   },
