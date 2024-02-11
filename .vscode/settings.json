@@ -1,6 +1,7 @@
 {
   "i18n-ally.localesPaths": ["src/shared/config/i18n"],
   "cSpell.words": ["additionals"],
-  "typescript.tsdk": "node_modules\\typescript\\lib"
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "editor.formatOnSave": true
   // "typescript.tsdk": "node_modules\\typescript\\lib"
 }
