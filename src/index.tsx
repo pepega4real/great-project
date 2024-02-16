@@ -7,6 +7,8 @@ import App from 'app/App'
 import 'shared/config/i18n/i18n'
 import { ErrorBoundary } from 'app/providers/ErrorBaundary'
 
+import './app/styles/index.scss'
+
 render(
   <div>
     <BrowserRouter>
