@@ -1,3 +1,4 @@
+import { useTheme } from 'app/providers/ThemeProvider'
 import React, { ReactNode, useCallback, useEffect, useRef, useState } from 'react'
 import { classNames } from 'shared/lib/classNames/classNames'
 import { Portal } from '../Portal/Portal'
@@ -17,7 +18,6 @@ export const Modal = (props: ModalProps) => {
   const { className, children, isOpen, onClose } = props
 
   const [isClosing, setIsClosing] = useState(false)
-
   const timeRef = useRef<ReturnType<typeof setTimeout>>()
 
   const onContentClick = (e: React.MouseEvent) => {
